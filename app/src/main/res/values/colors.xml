@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FFC107</color>
+    <color name="red">#F40505</color>
+    <color name="gray">#B3B3B3</color>
+    <color name="grayText">#918585</color>
+
+    <color name="processingColor">#FFA500</color> <!-- Orange for processing -->
+    <color name="shippingColor">#0000FF</color> <!-- Blue for shipping -->
+    <color name="deliveredColor">#008000</color> <!-- Green for delivered -->
+    <color name="cancelledColor">#FF0000</color> <!-- Red for cancelled -->
+    <color name="receivedColor">#800080</color> <!-- Purple for received -->
+
+    <color name="Payment">#119E92</color> <!-- Blue for cancelled -->
+    <color name="NotPayment">#774EC1</color> <!-- Purple for received -->
+
+</resources>

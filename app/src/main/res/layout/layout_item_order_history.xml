@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/madonhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã đơn hàng: 0001 "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ngaydat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ngày đặt: 28/04/2024"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/trangthai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Trang thai"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/trangthaithanhtoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Trang thai thanh toan"
+            android:textColor="#4F730C" />
+
+        <TextView
+            android:id="@+id/gia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tổng tiền:250.000 VNĐ"
+            android:textColor="@color/red" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".profile.ProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Email: ok@gmail.com" />
+
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Tên: Nguyen Van A" />
+
+    <TextView
+        android:id="@+id/dienthoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=" Số điện thoại: 0987654321" />
+
+
+    <TextView
+        android:id="@+id/doimatkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_23"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="10dp"
+        android:text="Đổi mật khẩu"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/doisodienthoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_23"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="10dp"
+        android:text="Đổi số điện thoại"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/doiDiachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_23"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="10dp"
+        android:text="Đổi địa chỉ"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dangxuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_23"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="10dp"
+        android:text="Đăng xuất"
+        android:textStyle="bold" />
+
+</LinearLayout>

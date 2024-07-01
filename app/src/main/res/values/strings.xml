@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rating"><u>Đánh giá sản phẩm</u></string>
+    <string name="nhanxet"><u>Nhận xét sản phẩm</u></string>
+    <string name="binhluan"><u>Phản hồi của khách hàng</u></string>
+    <string name="topsanpham">Top 5 sản phẩm được mua nhiều nhất</string>
+    <string name="categoty">Danh mục sản phẩm</string>
+    <string name="location">Ngõ 157/53 Pháo Đài Láng, Láng Thượng, Đống Đa, Hà Nội</string>
+    <string name="Time">Mở cửa từ 8:00am đến 23:00pm</string>
+    <string name="tinhtrang">Sẵn có</string>
+
+    <string-array name="order_history_options">
+        <item>Ngày hôm nay</item>
+        <item>7 ngày trước</item>
+        <item>Toàn bộ</item>
+    </string-array>
+
+</resources>

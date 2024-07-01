@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="16sp"
+    app:cardCornerRadius="16dp"
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="#AFCFC5">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgTopSP"
+            android:src="@drawable/recipe"
+            android:layout_width="60dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/tvTopSanPham"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="Gà xào kim chi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvGiaTopSanPham"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="13sp"
+            android:text="20000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

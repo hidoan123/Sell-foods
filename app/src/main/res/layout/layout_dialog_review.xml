@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_rating"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+
+    android:paddingVertical="16dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Đánh giá sản phẩm"
+        android:textColor="@color/red"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:numStars="5"
+        android:progressTint="@color/red"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/btnok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_22"
+        android:backgroundTint="@color/red"
+        android:paddingVertical="16dp"
+        android:text="OK"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_close" />
+
+</RelativeLayout>
